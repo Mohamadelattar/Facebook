@@ -1,0 +1,228 @@
+body
+{
+    margin: 0;
+    
+}
+*
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+.container
+{
+    margin: 0 90px;
+    display: flex;
+    
+}
+/* header */
+h1
+{
+font-family: 'Nanum Gothic', sans-serif;
+font-weight: bolder;
+font-size: 40px;
+color: #ffffff;
+flex-basis: 50%;
+text-transform: lowercase;
+margin: 10px;
+
+
+}
+header
+{
+    background-color: #3d5b99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header nav
+{
+    flex-basis: 30%;
+}
+header p
+{
+    display: inline;
+    padding-right: 1.5em;
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+header input
+{
+    display: inline;
+    width: 157px;
+    height: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+    
+header button
+{
+    color: #ffffff;
+    height: 25px;
+    width: 100px;
+    background-color: #4267b2;
+    border: #29487d;
+    border-radius: 10% ;
+    margin-top: 22px;
+    font-weight: bold;
+    
+    
+}
+header a
+{
+    display: block;
+    margin-left: 180px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* end header */
+
+/* section */
+
+section
+{
+    background-color: #e9ebee;
+    padding-top: 20px;
+    
+}
+.compte
+{
+    height: 200px;
+    width: 200px;
+    background-color: #f5f6f7;
+}
+.compte img
+{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.compte1
+{
+
+    height: 240px;
+    width: 200px;
+    background: #ffffff;
+    
+}
+.compte1 p
+{
+    text-align: center;
+    color: blue;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.section1
+{
+    flex-basis: 60%
+}
+.container h2 
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    
+}
+.container p
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: bold;
+    
+}
+.section2
+{
+    flex-basis: 60%;
+    
+}
+.section2 ul li
+{
+    
+    display: inline;
+    
+
+}
+.section2 ul 
+{
+    list-style: none;
+    padding: 0;
+
+}
+.nom
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 235px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.nom2
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline-block;
+    width: 480px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#date
+{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    
+
+}
+#pdate
+{
+    color: blue;
+    font-size: 12px;
+    text-align: justify;
+    color: #365899;
+    
+}
+
+.genre
+{
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline;
+}
+.condition
+{
+    font-size: 12px;
+    color: #777777;
+}
+.condition a
+{
+    text-decoration: none;
+    color: #365899;
+}
+.section2 button
+{
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
